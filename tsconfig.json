@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": false,
+        "outDir": "./dist/",
+        "rootDir": ".",
+        "target": "es6"
+    },
+    "files": [
+        "src/app.ts"
+    ],
+     "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
